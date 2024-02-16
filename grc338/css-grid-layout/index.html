@@ -1,107 +1,78 @@
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;    padding: 0;     border: 0;      vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://use.typekit.net/xwu0dyt.css"> <!--This line links to the fonts from Adobe Fonts that I’m using. On the CSS file, you’ll find how to use them. -->
+      <link rel="stylesheet" type="text/css" href="lasagnastyle.css" />
+      <title>Johnsonville Italian Sausage Lasagna</title>
+   </head>
+    
+<!-- I’m providing this document, so you know how to style your page. But you are not supposed to change anything in it. -->
+    
+<!--Also, this is an HTML comment and it’s meant for human beings. The machine knows it is not supposed to process anything in it. (Leave this comment here, because you’re not supposed to change anything in the document.)-->
+        
+   <body>
+       
+       <div class="container">
+           
+          <header>
+             <h1>Johnsonville Italian Sausage Lasagna</h1>
+             <h2>A classic family favorite</h2>
+          </header>
 
-img {
-    width: 100%; 
-	display: block;
-}
+          <figure>
+             <img src="lasagna.jpg" alt="Lasagna on a plate."> <!-- Don’t change this line (or any other line). Rename the other JPG file in the folder and delete the placeholder.-->
+             <figcaption>Johnsonville Italian Sausages make it simple to enjoy authentic Italian flavor. This classic lasagna dish is made so much easier when you've got Johnsonville backing you up. The flavor of the Italian sausages will help to make this recipe your new lasagna favorite!</figcaption>
+          </figure>
 
-header {
-        background-color:rgb(255,137,0);
-        padding: 5em 3em 2.5em 3em;
-}
+          <main>
 
-div.container {
-        max-width: 75em;
-        margin: auto;
-        background-color: #FAF9F6;
-}
+             <section class="ingredients">
 
-figure {
-        display: grid;
-        grid-template-columns: 3.5fr 1fr;
-        grid-column-gap: 1em;
-        margin-bottom: 2em;
-}
+                <h3>Ingredients</h3>
 
-body {
-        background-color: #e1e2e2;
-		line-height: 140%;
-		font-family: sans-serif;
-}
+                <ul>
+                   <li>12 lasagna noodles, uncooked</li>
+                   <li>2 tablespoons olive oil</li>
+                   <li>1 (16 ounce) package Johnsonville All Natural Italian Ground Sausage</li>
+                   <li>1 onion</li>
+                   <li>2 cloves garlic, chopped</li>
+                   <li>1 (24 ounce) jar marinara sauce</li>
+                   <li>4 cups ricotta cheese</li>
+                   <li>1 large egg</li>
+                   <li>&frac12; cup grated Parmesan cheese</li>
+                   <li>2 cups fresh spinach, lightly packed and chopped</li>
+                   <li>2 cups shredded mozzarella cheese</li>
+                </ul>
 
-main {
-        padding: 1em;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 3em;
-}
+             </section><!--ingredients-->
 
-h1 {
-        color: rgb(255,255,255);
-        font-family: Sutro, serif;
-        font-size: 2.2em;
-        font-weight: 700;
-        font-style: normal;
-        margin-bottom: 0.3em;
-}
+             <section class="directions">
 
-h2 {
-        color: rgb(230, 230, 230);
-        font-family: Sutro, Light;
-        font-weight: 300;
-        font-style: normal;
-}
+                <h3>Directions</h3>
 
-h3 {
-        font-family: Sutro, serif;
-        font-weight: 300;
-        font-style: normal;
-        color: rgb(255, 137,0);
-        margin: 0.3em 0.5em 0.7em;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        border-top: 0.15em;
-        border-style: solid;
-        border-color: rgb(255, 137,0);
-        padding-top: 1em;
-}
+                <ol>
+                   <li>Bring a large pot of salted water to a boil. Cook pasta until al dente. Drain, lightly oil and set aside.</li>
+                   <li>In a medium sauce pan, saute the sausage, crumbling with a wooden spoon, until no longer pink. Add onion and garlic and continue sauteing for another 4 minutes until the sausage is cooked through.</li>
+                   <li>Add marinara sauce to the sausage mixture and set aside. In a medium bowl, blend ricotta cheese, egg, &frac14; cup of the parmesan cheese and the chopped spinach; set aside.</li>
+                   <li>Coat a 9&times;13 baking dish with olive oil and spread 1 cup of the sauce mixture on the bottom.</li>
+                   <li>Top with 3 lasagna noodles. Spread &frac14; of the ricotta cheese mixture on the noodles and layer on 1 cup of the sauce mixture. Sprinkle &frac12; cup mozzarella cheese over this.</li>
+                   <li>Repeat this process three more times starting with the noodles and finish with the remaining &frac14; cup of parmesan cheese. Sprinkle with oregano.</li>
+                   <li>Preheat oven to 350&#8457; and bake for 45 minutes until hot and bubbly. Let stand 10 minutes before cutting.</li>
+                </ol>
 
-li {
-        margin: 1em 0.5em;
-}
+             </section><!--directions-->
 
-figcaption {
-        font-family: poppins, sans-serif;
-        font-weight: 400;
-        font-style: italic;
-        color: rgb(0, 0, 0);
-        padding: 1em 1.6em 0.1em;
-}
+           </main>
 
-ol {
-	font-family: poppins, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	padding-bottom: 1em;
-}
+          <footer>
+             <p>Recipe from allrecipes.com.</p>
+          </footer>
+           
+       </div>
+           
+   </body>
+    
+</html>
 
-ul {
-	margin: .5em;
-	font-family: poppins, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	padding-bottom: 1em;
-
-}
-
-footer {
-	padding: 1em 2em 1em 1em;
-	color: rgb(255,255,255);
-	background-color: rgb(255,137,0);
-}
-
-p {
-	font-family: poppins, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
