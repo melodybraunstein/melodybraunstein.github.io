@@ -1,0 +1,82 @@
+/*CSS DOCUMENT*/
+
+div.container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 60em;
+	/* allows images to be on right on web */
+	margin: auto;
+	padding: 0em 1em;
+}
+
+header {
+	flex: 1 0 100%;
+}
+
+h1 {
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	margin-left: .25em;
+}
+
+h3 {
+	margin: 0em;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	color:#222;
+}
+
+p {
+	color: #222;
+	margin-top: 0em;
+
+}
+
+a {
+	text-decoration: none;
+	color: #222
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	background-color: #fafafa;
+	box-sizing: border-box;
+}
+
+article { 
+	flex: 2 0 25em;
+	flex-wrap: wrap;
+	margin: 1em .5em;
+}
+
+aside { 
+	flex: 1 0 20em;
+}
+
+section {
+	background-color: #ecebeb;
+	margin: 1em;
+	padding: 1em;
+
+}
+footer {
+	flex: 1 0 100%;
+	margin: 1em;
+	border-top: .2em solid #d4d4d4
+	}
+
+figure {
+	margin: 0em;
+}
+
+img {
+	width: 100%;
+	flex: 1 0 40%;
+	}
+
+ol {
+	margin-left: 0;
+	padding-left: 0em; /* Adjust this to control space between numbers and text */
+	}
+	
