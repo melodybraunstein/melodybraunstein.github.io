@@ -59,7 +59,7 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
 
 nav {
     display: grid;
-    grid-template-columns: 24.8% 24.8% 24.8% 24.8%;
+    grid-template-columns: 24.9% 24.9% 24.9% 24.9%;
     grid-gap: .2em;
 }
 
