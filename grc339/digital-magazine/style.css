@@ -1,3 +1,4 @@
+
 /*CSS document*/
 
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
@@ -9,6 +10,7 @@ img {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 div.container, div.home-container {
@@ -21,18 +23,19 @@ main {
 }
 
 h1 {
-    width: 6em;
+    width: 20em;
     margin-top: 1em;
 }
 
 h1, nav {
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 h2 {
     font-size: 3em;
-    font-family: serif;
-    font-weight: bold;
+    font-family: "tarif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-bottom: 0em;
    
 }
@@ -40,9 +43,9 @@ h2 {
 article h2 {
     font-size: 3em;
     margin-top: 1em;
-    margin-left: .25em;
+    margin-left: 0em;
     margin-bottom: .5em;
-    color:#426692; 
+    color: #0081A7;
 }
 
 header, h2, p {
@@ -56,66 +59,78 @@ section {
 footer {
     height: 2em; 
     padding-top: 1em;
-    color: #f3f3f3;
-    margin-left: .5em;
-    font-family: sans-serif;
-    background: #426692;
+    padding-left: 1em;
+    color: #F7F7F9;
+    font-family: "tarif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #0081A7;
 }
 
 section.primary-second h2 {
     font-size: 3em;
-    font-family: serif;
-    font-weight: bold;
+    font-family: "tarif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: .3em;
     margin-top: .1em;
     margin-left: .2em;
-    color: #426692; 
+    color: #0081A7;
  } 
 
 section.secondary h2 {
     font-size: 1.7em;
-    font-family: serif;
-    font-weight: bold;
-    margin-left: .3em;
+    font-family: "tarif", sans-serif;
+    font-weight: 400;
+    margin-left: 0em;
+    font-style: normal;
     margin-top: .3em;
-    color: #426692; 
+    color: #0081A7;
  }
 
  section.tertiary h3 {
-    border-top: .06em solid #426692;
+    border-top: .06em solid #0081A7;
     padding-top: .5em;
     margin-bottom: .25em;
     font-size: 1.2em;
-    font-weight: bold;
-    margin-left: .5em;
-    font-family: serif;
-    color: #426692; 
+    margin-left: 0em;
+    font-family: "tarif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0081A7;
  }
 
 p {
-    font-family: sans-serif;
-    margin-left: .5em;
+    font-family: "adobe-aldine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
     padding-bottom: 1.5em;
     line-height: 1.3em;
 }
 
 aside {
-   background-color:#c1c9f7;
+   background-color: #F7F7F9;
    padding: .5em;
 }
 
 aside section.secondary h2 {
-    color:#426692;
+    color: #0081A7;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #f3f3f3
+    font-family: "adobe-aldine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F7F7F9;
 }
 
 nav ul li a {
-   font-weight: bold;
-   color:#426692;
+   color: #0081A7;
+   font-family: "tarif", sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: normal;
 }
 
 nav ul li {
@@ -125,9 +140,10 @@ nav ul li {
 }
 
 figcaption {
-    color: #515151;
-    font-style: italic; 
-    font-family: sans-serif;
+    color: #001638;
+    font-family: "adobe-aldine", sans-serif;
+    font-weight: 400;
+    font-style: italic;
     margin-left: .5em;
     padding-bottom: 1em;
     font-size: 1em;
@@ -139,7 +155,7 @@ figcaption {
    nav ul li {
     display: inline;
     margin-right: 1em;
-    color:#426692;
+    color: #0081A7;
    }    
 
    header, h2, p {
