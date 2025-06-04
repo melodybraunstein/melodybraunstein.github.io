@@ -18,15 +18,9 @@ div.container, div.home-container {
     position: relative;
 }
 
-main {
-    margin: 0em;
-     position: relative;
-    overflow: hidden;
-     padding-bottom: calc(73% + 3em);
-}
-
 h1 {
     width: 20em;
+    margin-bottom: 0em;
     margin-top: 1em;
 }
 
@@ -40,7 +34,6 @@ h2 {
     font-weight: 400;
     font-style: normal;
     padding-bottom: 0em;
-   
 }
 
 article h2 {
@@ -139,7 +132,7 @@ nav ul li a {
 nav ul li {
     list-style-type: none;
     margin-left: 0em;
-    margin-bottom: .25em;
+    margin-bottom: 0em;
 }
 
 figcaption {
@@ -153,6 +146,25 @@ figcaption {
     line-height: 1.25em;
    }
 
+/* Photo Gallery */
+
+div.container-gallery {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0
+}
+
+main.photogallery figure{
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: left .5s, opacity .5s;
+}
+
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
 input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
 input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
@@ -164,39 +176,25 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     opacity: 1;
 }
 
-section.nav {
-    display: grid;
-    grid-template-columns: 24.8% 24.8% 24.8% 24.8% 24.8% 24.8% 24.8%;
-    grid-gap: .2em;
-}
-
-section.main {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: calc(73% + 3em);
-}
-
-main.photogallery{
-    margin: 0;
-    width: calc(100%-2em);
-    padding-bottom: 50em;
-    position: relative;
-    transition: left .5s, opacity .5s;
-}
-
-main.photogallery figure{
-    position: absolute;
-    opacity: 0;
-}
-
 nav.photogallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+    grid-gap: .2em;
+    padding-bottom: 1em;
+    padding-top: .5em;
 }
+
+input {
+    display: none;
+}
+
+/* End of Photo Gallery*/
+
+/* Newsletter */
 
 form {
     color: #001638;
-    background: #0081A7;
+    background: #F3CB02;
     padding: 1em;
     margin-bottom: 1em;
 }
@@ -231,7 +229,8 @@ section ul li select {
   }
   
 .newsletter ul li {
-	width: 9em;; 
+	width: 12em;; 
+    margin: 0 2em 0 0;
 }
 
 .order ul li {
@@ -255,6 +254,19 @@ section.personal-info-name h2 {
     font-size: 2em;
 }
 
+/* End of Newsletter */
+
+
+@media screen and (prefers-color-scheme: dark) {
+    h1 {  
+        background-image: url("mel-logo-white.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+        }
+    h1 img {  
+         opacity: 0;  
+            }    
+}
 
 @media only screen and (min-width: 40em)
 {
@@ -284,6 +296,7 @@ section.personal-info-name h2 {
 
    div.container {
     max-width: 60em;
+    margin: 0 auto;
     padding: 1em;
     display: grid;
     grid-template-columns: 3fr, 1fr;
